@@ -1,0 +1,20 @@
+@import url(cabecalho.css);
+
+:root{
+    --preto: #000000;
+    --branco: #ffffff;
+    --fundo-preto: #313131;
+    --fundo-branco: #E6E6E6;
+    --texto-preto: #1D1D1F;
+    --texto-branco: #F5F5F7;
+    --link-fundo-branco: #0066CC;
+    --link-fundo-preto: #2997FF;
+}
+
+body{
+    background-color: var(--fundo-branco);
+    color: var(--texto-preto);
+    font-size: 17px;
+    line-height: 1.5;
+    font-weight: 400;
+}
