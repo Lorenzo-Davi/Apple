@@ -1,0 +1,29 @@
+.watch{
+    background-color: var(--preto);
+    text-align: center;
+    padding-top: 43px;
+}
+
+.watch--subtitulo{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: var(--texto-branco);
+    margin: 10px 0 15px 0;
+}
+
+.watch-links{
+    display: flex;
+    justify-content: center;
+}
+
+.watch-links--mais, .watch-links--comprar{
+    font-weight: 400;
+    color: var(--link-fundo-preto);
+    letter-spacing: -0.374px;
+}
+
+.watch-links--mais::after, .watch-links--comprar::after{
+    padding: 5.1px;
+    content: ">";
+}

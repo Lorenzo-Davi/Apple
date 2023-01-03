@@ -1,6 +1,7 @@
 @import url(cabecalho.css);
 @import url(fitness_plus.css);
 @import url(iphone.css);
+@import url(watch.css);
 
 :root{
     --preto: #000000;
