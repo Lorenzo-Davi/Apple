@@ -1,4 +1,5 @@
 @import url(cabecalho.css);
+@import url(fitness_plus.css);
 
 :root{
     --preto: #000000;
@@ -9,12 +10,13 @@
     --texto-branco: #F5F5F7;
     --link-fundo-branco: #0066CC;
     --link-fundo-preto: #2997FF;
+    --verde-lima: #A6FF00;
 }
 
 body{
     background-color: var(--fundo-branco);
     color: var(--texto-preto);
+    font-family: 'Inter';
     font-size: 17px;
-    line-height: 1.5;
     font-weight: 400;
 }

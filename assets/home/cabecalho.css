@@ -7,5 +7,5 @@
 .cabecalho-item{ 
     display: flex;
     align-items: center;
-    padding: 1rem;
+    padding: 16px;
 }
