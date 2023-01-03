@@ -1,16 +1,22 @@
 @import url(cabecalho.css);
 @import url(fitness_plus.css);
+@import url(iphone.css);
 
 :root{
     --preto: #000000;
     --branco: #ffffff;
+    --verde-lima: #A6FF00;
+
     --fundo-preto: #313131;
     --fundo-branco: #E6E6E6;
+    --fundo-branco-cinza: #FBFBFD;
+
     --texto-preto: #1D1D1F;
     --texto-branco: #F5F5F7;
+    --texto-cinza: #868B8B;
+
     --link-fundo-branco: #0066CC;
     --link-fundo-preto: #2997FF;
-    --verde-lima: #A6FF00;
 }
 
 body{
@@ -19,4 +25,5 @@ body{
     font-family: 'Inter';
     font-size: 17px;
     font-weight: 400;
+    line-height: 21px;
 }

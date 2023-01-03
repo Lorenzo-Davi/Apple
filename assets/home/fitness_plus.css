@@ -1,9 +1,10 @@
 .fitness_plus{
     text-align: center;
+    padding: 110px 0;
 }
 
 .fitness_plus-titulo{
-    margin: 110px 90px 60px 90px;
+    margin: 0 90px 60px 90px;
 }
 
 .fitness_plus-titulo--titulo{
@@ -47,4 +48,32 @@
     font-weight: 600;
     font-size: 19px;
     line-height: 25px;
+}
+
+.fitness_plus-descricao-conteiner, .fitness_plus-descricao-conteiner-grupo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fitness_plus-descricao-conteiner{
+    gap: 45px;
+    margin-top: 45px;
+}
+
+.fitness_plus-descricao-conteiner-grupo{
+    gap: 20px;
+    padding: 8.45px;
+    margin: 0 70px;
+}
+
+.fitness_plus-descricao-conteiner-grupo--img{
+    width: 42px;
+    height: 42px;    
+}
+
+.fitness_plus-descricao-conteiner-grupo--paragrafo{
+    font-weight: 600;
+    line-height: 23px;
+    color: var(--texto-cinza);
 }
