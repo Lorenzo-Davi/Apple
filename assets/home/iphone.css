@@ -22,6 +22,7 @@
 .iphone-links{
     display: flex;
     justify-content: center;
+    gap: 27px;
 }
 
 .iphone-links--mais, .iphone-links--comprar{

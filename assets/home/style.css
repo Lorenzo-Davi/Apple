@@ -2,6 +2,8 @@
 @import url(fitness_plus.css);
 @import url(iphone.css);
 @import url(watch.css);
+@import url(info.css);
+@import url(rodape.css);
 
 :root{
     --preto: #000000;
@@ -12,12 +14,16 @@
     --fundo-branco: #E6E6E6;
     --fundo-branco-cinza: #FBFBFD;
 
+    --borda-cinza: #D2D2D7;
+
     --texto-preto: #1D1D1F;
     --texto-branco: #F5F5F7;
     --texto-cinza: #868B8B;
+    --texto-cinza-escuro: #6E6E73;
 
     --link-fundo-branco: #0066CC;
     --link-fundo-preto: #2997FF;
+    --link-texto-cinza: #424245;
 }
 
 body{

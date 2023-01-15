@@ -1,0 +1,37 @@
+.rodape{
+    margin: 16px 16px 27px 16px;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--texto-cinza-escuro);
+    border-top: 1px solid var(--borda-cinza);
+}
+
+.rodape-comprar{
+    padding: 16px 0;
+}
+
+.rodape-comprar--link{
+    color: var(--link-fundo-branco);
+}
+
+.rodape--pais{
+    color: var(--link-texto-cinza);
+}
+
+.rodape--copyright{
+    padding: 17px 0 5px 0;
+}
+
+.rodape-lista-item{
+    display: inline;
+}
+
+.barra_lateral{
+    padding-right: 21px;
+    border-right: 1px solid var(--borda-cinza);
+    margin-right: 10px;
+}
+
+.rodape-lista-item--link{
+    color: var(--link-texto-cinza);
+}

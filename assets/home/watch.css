@@ -15,6 +15,7 @@
 .watch-links{
     display: flex;
     justify-content: center;
+    gap: 27px;
 }
 
 .watch-links--mais, .watch-links--comprar{

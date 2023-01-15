@@ -1,0 +1,26 @@
+.info-nota{
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--texto-cinza-escuro);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info-nota1{
+    padding: 17px 33px 0 33px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info-nota2{
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info-nota--link{
+    color: var(--link-texto-cinza);
+}
