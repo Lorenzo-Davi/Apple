@@ -1,0 +1,35 @@
+.produto{
+    text-align: center;
+    padding-top: 37px;
+    margin-bottom: 12px;
+}
+
+.produto--titulo{
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 36px;
+}
+
+.produto--legenda{
+    font-size: 16px;
+    line-height: 23px;
+    margin: 4px 0 12px 0;
+}
+
+.produto-links--saibamais, .produto-links--comprar{
+    color: var(--link-fundo-preto);
+}
+
+.produto--imagem{
+    width: 100%;
+}
+
+.macbookpro, .macmini, .pulseira{
+    background-color: var(--preto);
+}
+
+.macbookpro--titulo, .macbookpro--legenda,
+.macmini--titulo, .macmini--legenda,
+.pulseira--titulo, .pulseira--legenda{
+    color: var(--texto-branco);
+}
