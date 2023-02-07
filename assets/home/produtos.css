@@ -24,12 +24,19 @@
     width: 100%;
 }
 
-.macbookpro, .macmini, .pulseira{
+.macbookpro, .macmini, .pulseira, .iphone14pro, .watchs8{
     background-color: var(--preto);
 }
 
 .macbookpro--titulo, .macbookpro--legenda,
 .macmini--titulo, .macmini--legenda,
-.pulseira--titulo, .pulseira--legenda{
+.pulseira--titulo, .pulseira--legenda,
+.watchs8--legenda,
+.iphone14pro--titulo, .iphone14pro--legenda{
     color: var(--texto-branco);
+}
+
+.iphone14, .watchultra{
+    color: var(--texto-preto);
+    background-color: var(--branco);
 }

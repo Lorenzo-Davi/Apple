@@ -7,7 +7,6 @@
 :root{
     --preto: #000000;
     --branco: #ffffff;
-    --verde-lima: #A6FF00;
 
     --fundo-preto: #313131;
     --fundo-branco: #E6E6E6;
@@ -26,7 +25,7 @@
 }
 
 body{
-    background-color: var(--fundo-branco);
+    background-color: var(--branco);
     color: var(--texto-preto);
     font-family: 'Inter';
     font-size: 17px;
