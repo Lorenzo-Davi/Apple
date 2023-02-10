@@ -2,6 +2,15 @@
     text-align: center;
     padding-top: 37px;
     margin-bottom: 12px;
+    position: relative;
+}
+
+.produto--direcionar{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
 }
 
 .produto--titulo{
@@ -14,6 +23,11 @@
     font-size: 16px;
     line-height: 23px;
     margin: 4px 0 12px 0;
+}
+
+.produto-links{
+    z-index: 1;
+    position: relative;
 }
 
 .produto-links--saibamais, .produto-links--comprar{
@@ -36,7 +50,12 @@
     color: var(--texto-branco);
 }
 
-.iphone14, .watchultra{
+.iphone14{
     color: var(--texto-preto);
     background-color: var(--branco);
+}
+
+.watchultra, .ipad{
+    color: var(--texto-preto);
+    background-color: var(--fundo-branco-cinza);
 }
